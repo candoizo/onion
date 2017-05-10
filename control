@@ -1,7 +1,7 @@
 Package: ca.candoizo.onion
 Name: onion
 Depends: mobilesubstrate, firmware (>= 10.0)
-Version: 0.0.3
+Version: 0.0.4
 Architecture: iphoneos-arm
 Description: Peel a layer off the control center!
 Maintainer: candoizo

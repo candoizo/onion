@@ -32,9 +32,9 @@
 %ctor {
 	%init(FINE);
 	if ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 10.2) {
-		%init(ONION);
+		%init(MATS);
 	}
 	else {
-		%init(MATS);
+		%init(ONION);
 	}
 }

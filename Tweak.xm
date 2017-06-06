@@ -18,6 +18,11 @@
 %hook NCMaterialSettings
 - (double)cutOutOverlayAlpha {return 0;}
 - (double)ccWhiteOverlayAlpha {return 0;}
+-(void)layoutSubviews {
+	%orig;
+	UIImageView* _whiteLayerView = [self valueForKey:@"_whiteLayerView"];
+	_whiteLayerView.hidden = YES;
+}
 %end
 %end
 %group ONION
